@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-image: url("whitebg.webp");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  background-image: url("bg2.webp");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+
+<div class="about-section" >
+  <h1>About Us Page</h1>
+  <p>E V E is an Event reservation Company Founded in 1983, EVE can take care of all the organisation and tasks to deliver a successful event, allowing you to focus on the day and your guests. The true quality of the service will show if there is a problem.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="4.jpg" alt="Veer" style="width:100%">
+      <div class="container">
+        <h2>Veer Katrodia</h2>
+        <p class="title">Director</p>
+        <p>Veer.Katrodia@example.com</p>
+        <a href="https://www.linkedin.com/in/veer-katrodia-69b29221b" alt="Veer LinkedIn"><p><button class="button">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="2.jpg" alt="Vishrut" style="width:100%">
+      <div class="container">
+        <h2>Karthik Pillai</h2>
+        <p class="title">Art Director</p>
+        <p>karthik.pillai@example.com</p>
+        <a href="https://www.linkedin.com/in/vishrut-shah-611858200" alt="Vishrut LinkedIn"><p><button class="button">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="7.jpg" alt="Abhinav" style="width:100%">
+      <div class="container">
+        <h2>Abhinav Nair</h2>
+        <p class="title">Designer</p>
+        <p>Abhinav.Nair@example.com</p>
+        <a href="https://www.linkedin.com/in/abhinav-n-029819193" alt="Abhinav LinkedIn"><p><button class="button">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="anuj.jpg" alt="Anuj" style="width:100%">
+    <div class="container">
+      <h2>Anuj Pandey</h2>
+      <p class="title">Aesthetic Tester</p>
+      <p>anuj.pandey@example.com</p>
+      <a href="https://www.linkedin.com/in/vishrut-shah-611858200" alt="Vishrut LinkedIn"><p><button class="button">Contact</button></p></a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

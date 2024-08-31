@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <style>
+        /* Styling the body */
+        body {
+            margin: 0;
+            padding: 0;
+		/* The image used */
+            background-image: url("bg2.webp");
+            /* Full height */
+            height: 100%; 
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+          
+        /* Styling section, giving background
+            image and dimensions */
+        section {
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+        }
+          
+        /* Styling the left floating section */
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the background of
+            left floating section */
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect 
+            of left floating section */
+        section .leftBox .content:hover {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of left
+            floating section */
+        section .leftBox .content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+          
+        /* Styling the paragraph of
+            left floating section */
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+          
+        /* Styling the three events section */
+        section .events {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            float: right;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the links of
+        the events section */
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the lists of the event section */
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+          
+        /* Styling the time class of events section */
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect
+            of events section */
+        section .events ul li:hover .time {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of time
+            class of events section */
+        section .events ul li .time h2 {    position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 60px;
+            line-height: 30px;
+        }
+          
+        /* Styling the texts of time
+        class of events section */
+        section .events ul li .time h2 span {
+            font-size: 30px;
+        }
+          
+        /* Styling the details
+        class of events section */
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+          
+        /* Styling the header of the
+        details class of events section */
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+          
+        /* Styling the lists of details
+        class of events section */
+        section .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+          
+        /* Styling the links of details
+        class of events section */
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+          
+        /* Styling the details class's hover effect */
+        section .events ul li .details a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+        }
+    </style>
+</head>
+  
+<body>
+    <section>
+        <div class="leftBox">
+            <div class="content">
+                <h1>
+                    Events and Shows
+                </h1>
+                 
+<p>
+                    E V E was founded by 3 NMIMS Alumni Abhinav Nair,
+                    Vishrut Shah and Veer Katrodia.With a illuminuous vision
+                    of revolutionizing event management sector the purpose of E V E
+                    was discovered. This iniatiative was taken keeping consideration of mixed juvenile as well as ambitious nature of the society's norm. Our coterie
+                    elegantly designed this website with an aspect to provide efficient services for booking your favourite event with smoothest interface you would have
+                    ever witnessed.At this platform we treat our customers with dignity and aim to provide seamless service at your ease.
+                </p>
+ 
+            </div>
+        </div>
+  
+        <div class="events">
+            <ul>
+                <li>
+                    <div class="time">
+                        <h2>
+                            31 <br><span>December</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Sunburn
+                        </h3>
+                         
+<p>
+                            Sunburn is a commercial electronic dance music festival held in India. It took place from 2007 to 2015, in Vagator Goa, India. However in 2016 it was shifted to Pune, Maharashtra. In 2019, the festival returned to its home town in Vagator, Goa. It is Asia's largest music festival.
+                        </p>
+ 
+  
+
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            1 <br><span>February</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            IPL
+                        </h3>
+                         
+<p>
+                          Out of the 70 matches, 20 each will be held at Wankhede Stadium (Mumbai) and DY Patil Sports Stadium (Navi Mumbai), with 15 matches each at Brabourne Stadium (Mumbai) and MCA International Stadium (Pune). Tickets for all matches across all four stadia will be available only online on E V E.
+                        </p>
+ 
+                        
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            25 <br><span>November</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Kasakai Open Mic Event
+                        </h3>
+                         
+<p>
+                            We make people gather over chai, coffee or drinks & discuss books, epics, watch matches, movies or TV shows or compete for board game supremacy.It's a live show where singers and songwriters perform, and can look a number of different ways.
+                        </p>
+ 
+  
+                        
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+  
+</html>
